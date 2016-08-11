@@ -25,7 +25,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->version = 2016062200;  // YYYYMMDDHH (year, month, day, 24-hr time).
-$plugin->requires = 2015050500; // YYYYMMDDHH (I tried with 2015110900 for 2.9.3 but doesn't work).
+$plugin->requires = 2015050500; // YYYYMMDDHH (I tried with 2015110900 for 2.9.3 but it doesn't work).
                                 // Default plugins has 2015050500 after installation.
 $plugin->dependencies = array('local_samieconfig' => 2016062200);
 $plugin->component = 'block_samiereports';
