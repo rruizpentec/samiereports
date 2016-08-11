@@ -1,0 +1,8 @@
+{
+    "name": "pentec/samiereports",
+    "version": "1.0.0",
+    "dist": {
+        "url": "http://svn.samoo.es/svn/moodle-samie-reports/samiereports.zip",
+        "type": "zip"
+    }
+}
