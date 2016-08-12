@@ -48,7 +48,7 @@ class block_samiereports extends block_base {
      * @return object $this->content
      */
     public function get_content() {
-        global $COURSE, $USER, $CFG, $PAGE;
+        global $COURSE, $CFG;
         // Initialize the content.
         if (isset($this->content)) {
             if ($this->content !== null) {
